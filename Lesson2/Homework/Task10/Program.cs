@@ -3,17 +3,17 @@
 // 782 -> 8
 // 918 -> 1
 
-System.Console.WriteLine("Enter 3 digit number:");
+System.Console.WriteLine("Введите 3 значное число:");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
 if(number < 100 || number > 999)
 {
-    System.Console.WriteLine("Incorrect number");
+    System.Console.WriteLine("Неверное число");
 }
 else
 {
     number = number / 10 % 10;
 }
 
-System.Console.WriteLine(number)ж
+System.Console.WriteLine(number);
