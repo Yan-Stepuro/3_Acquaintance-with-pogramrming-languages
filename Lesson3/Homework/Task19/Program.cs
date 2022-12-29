@@ -14,12 +14,12 @@ for(int i = 0; i < number.Length / 2; i++)
     if(number[i] == number[number.Length - 1 - i])
     {
         result = "да";
-        System.Console.WriteLine(result);
     }
     else
     {
         result = "нет";
-        System.Console.WriteLine(result);
         break;
     }
 }
+
+System.Console.WriteLine(result);
