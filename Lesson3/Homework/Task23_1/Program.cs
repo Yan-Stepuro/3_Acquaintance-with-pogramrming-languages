@@ -24,3 +24,5 @@ int cube(int value)
 
 int value = ReadValueFromConsole("Введите число: ");
 System.Console.WriteLine(cube(value));
+
+//как убрать вывод лишнего нуля? 
