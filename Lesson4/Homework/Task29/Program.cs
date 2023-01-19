@@ -28,7 +28,7 @@ void PrintArray(int[] array)
     System.Console.WriteLine("[" + GetArrayInString(array) + "]");
 }
 
-int size = new Random().Next(1, 10);
+int size = 8;
 int[] array = CreateArray(size);
 FillArrayRandomNumbers(array);
 GetArrayInString(array);
