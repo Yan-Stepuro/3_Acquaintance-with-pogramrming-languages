@@ -59,9 +59,9 @@ void AvgColumns(int[,] array)
             avg = Math.Round(summ / array.GetLength(0), 2);
         }
         Console.Write(String.Format("{0, 5}", avg));
+        //Console.Write(avg + "; ");
     }
 }
-
 
 int rows = InputRows("Введите количество строк массива: ");
 int columns = InputColumns("Введите количество столбцов массива: ");
