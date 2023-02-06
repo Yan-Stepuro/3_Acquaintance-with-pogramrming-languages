@@ -25,6 +25,13 @@ int FindSumm(int m, int n)
 int m = InputNumber("Введите число M: ");
 int n = InputNumber("Введите число N: ");
 
+if (m > n)
+{
+    int temp = m;
+    m = n;
+    n = temp;
+}
+
 Console.WriteLine(FindSumm(m, n));
 
 //4, 8 -> 4 + 5 + 6 + 7 + 8 = 30

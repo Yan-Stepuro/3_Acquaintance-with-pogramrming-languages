@@ -15,8 +15,8 @@ int Ack(int m, int n)
 }
 
 
-int m = 2;
-int n = 3;
+int m = 0;
+int n = 2;
 
 int result = Ack(m, n);
 
